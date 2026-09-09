@@ -173,6 +173,7 @@ func fetchSourceA(httpClient *http.Client, wg *sync.WaitGroup, count *int, fetch
 			//skip the entire page assuming there's malformed data in the current page.
 			log.Printf("Error decoding JSON response from source-a on page %d. Fetching next page\n", currentPage)
 			currentPage += 1
+			continue
 		}
 
 		for _, v := range resA.Products {
