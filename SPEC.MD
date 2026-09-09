@@ -9,7 +9,7 @@
 - When max try is exceeded, the fetching loop for that source is terminated. Data collected upto that point have been already streamed concurrently while fetching.
 
 # Assumption and Ambiguity
-- Termination of the fetching loop source-B and source-C were determined by re-visitation of the previous fetched cursor and offset, respectively.
+- Termination of the fetching loop for source-b and source-c were determined by re-visitation of the previous fetched cursor and offset, respectively.
 - The initial starting cursor and offset were arbitrarily set to empty string("") and 0.
 - The limit(max page size) and Rate Limit values can be dynamically changed while fetching, so they were checked and updated for every loop. 
 
