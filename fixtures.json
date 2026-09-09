@@ -1,0 +1,26 @@
+{
+  "source_a": [
+    {"id": "a-101", "name": "Mechanical Keyboard", "price": 89.99, "category": "electronics"},
+    {"id": "a-102", "name": "Ergonomic Mouse", "price": 54.5, "category": "electronics"},
+    {"id": "a-103", "name": "Standing Desk Mat", "price": 39.0, "category": "office"},
+    {"id": "a-104", "name": "Monitor Arm", "price": 119.95, "category": "office"},
+    {"id": "a-105", "name": "Laptop Stand", "price": 44.25, "category": "office"},
+    {"id": "a-106", "name": "USB-C Cable", "price": 14.99, "category": "electronics"}
+  ],
+  "source_b": [
+    {"sku": "b-201", "title": "Desk Lamp", "amount_cents": 3499, "department": "home"},
+    {"sku": "b-202", "title": "Noise-Cancelling Headphones", "amount_cents": 12999, "department": "electronics"},
+    {"sku": "b-203", "title": "Notebook Set", "amount_cents": 1899, "department": "office"},
+    {"sku": "b-204", "title": "Travel Mug", "amount_cents": 2499, "department": "kitchen"},
+    {"sku": "b-205", "title": "Broken Price Example", "amount_cents": "not-a-number", "department": "home"},
+    {"sku": "b-206", "title": "Webcam", "amount_cents": 7499, "department": "electronics"}
+  ],
+  "source_c": [
+    {"product_id": "c-301", "product_name": "USB-C Hub", "price": "49.50", "type": "electronics"},
+    {"product_id": "c-302", "product_name": "Coffee Grinder", "price": "79.00", "type": "kitchen"},
+    {"product_id": "c-303", "product_name": "Desk Organizer", "price": "27.75", "type": "office"},
+    {"product_id": "c-304", "product_name": "Portable SSD", "price": "109.99", "type": "electronics"},
+    {"product_id": "c-305", "product_name": "Water Bottle", "price": "21.00", "type": "outdoors"},
+    {"product_id": "c-306", "product_name": "Phone Stand", "price": "19.95", "type": "electronics"}
+  ]
+}
